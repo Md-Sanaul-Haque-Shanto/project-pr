@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>⚡Insight | Flexible Use of Electricity </title>
+
+  <!-- seo starts here  -->
+  <meta name="description" content="This research also serves the purpose of spreading awareness related to Flexible Use of Electricity."/>
+  <meta name="author" content="Md. Sanaul Haque Shanto">
+  <meta name="keywords"
+          content="#" />
+  <meta name="robots" content="index,follow" />
+  <meta name="Googlebot" content="index,follow" />
+  <meta name="AdsBot-Google" content="index,follow" />
+  <meta property="og:site_name" content="#">
+  <meta property="og:title" content="Insight | Power Rangers">
+  <meta property="og:description" content="This research also serves the purpose of spreading awareness related to Flexible Use of Electricity."/>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="#">
+  <meta name="application-name" content="Insight | Power Rangers" />
+  <meta name="apple-mobile-web-app-title" content="Insight | Power Rangers" />
+  <meta name="summary" content="This research also serves the purpose of spreading awareness related to Flexible Use of Electricity.">
+<!-- seo ends here  -->
+
+<!-- links including fonts and third part library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- AOS  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+
+
+<!-- chart js CDN  -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+
+</head>
+
+<body onload="loader()">
+
+  <div id="loading"></div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+<!-- nav bar starts here  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">⚡Power Rangers</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home<i class="fas fa-home"></i></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./insight.html">Insight<i class="fas fa-chart-bar"></i><span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="./solution.html">Solution<i class="fas fa-dna"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact<i class="fas fa-phone-square"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./faq.html">FAQs<i class="fas fa-comment-dots"></i></a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+     <!-- stat content starts here  -->
+     <div class="container">
+      <div class="stat-content">
+        <div class="row align-items-center">
+          <div class="col-md-12 ">
+            <h2 class="heading text-center">Let's take a look at Insight</h2>
+          </div>
+        </div>
+
+        <br>
+        <div class="row align-items-center incidence-rates">
+         <div class="col-md-6 align-items-center" data-aos="fade-up">
+           <h3>Energy Generation</h3>
+           <p>Total net energy generation in FY 2019-20 was 71,419 GWh,
+which was about 1.26% higher than previous year’s net
+generation of 70,533 GWh. Net energy generation in the
+public sector was 35,316 GWh and 29,429 GWh in the
+private sector (including REB). Another 6,674 GWh was
+imported from India through the interconnection in
+Bheramara and Tripura.<br>
+Total net energy generated in public and private sector
+power plants by type of fuel are as follows:<br>
+        <br>
+      </p>
+         </div>
+         <div class="col-md-6 text-center" data-aos="fade-left">
+          <div class="age-graph">
+           <div id="energygen"></div>
+         </div>
+         </div>
+        </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <div class="age-graph">
+              <div id="maintenancepowerplants" class="interactive"></div>
+            </div>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Plant Efficiency and Maintenance</h3>
+            <p>The overall Thermal efficiency (Net) of the public-sector power plants in FY 2019-20 was 39.72%. Previous year’s
+it was 38.4%.
+</p><br>
+<p>Below the list of major power plants were under maintenance in the FY 2019-20:</p>
+<br>
+</p>
+          </div>
+         </div>
+
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Transmission</h3>
+            <p>During fiscal year 2019-20, very significant transmission components have been
+added to the system because of the completion of different project works. Ttransmission line
+length (ckt. km) has enlarged by 5.15% than that of previous year. The line details are as below:</p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <div class="age-graph">
+              <div id="transmissionL" class="interactive"></div>
+            </div>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <div class="age-graph">
+              <div id="ngf" class="interactive"></div>
+            </div>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Interruption of National Grid for FY 2019 & FY 2020</h3>
+            <p> </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Customer's service & satisfaction</h3>
+            <p>BPDB has introduced following services for customer satisfaction:</p>
+          </div>
+          <div class="col-md-6 text" data-aos="fade-left">
+            <ol type="i">
+  <li>Computerized billing and Remote billing system</li>
+  <li>Easy Bill Pay</li>
+  <li>Online Application</li>
+  <li>Pre-paid metering</li>
+  <li>One-stop service</li>
+  <li>Supervisory Control And Data Acquisition (SCADA) System</li> 
+  <li> Enterprise Resource Planning (ERP)</li> 
+  <li> Innovation of BPDB</li> 
+</ol>
+          </div>
+         </div>
+        <br>
+
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+               <p>Electricity plays the most basic role in the economic growth through sustainable structure as well as poverty eradication and security of any S R, country. Reliable electricity supply is a vital issue for the world today. Future economic growth crucially depends on the long-term availability of electricity, e which are affordable, available and environmentally friendly. Security, climate change, and public health are closely interrelated with electricity. In line with this aspect, Bangladesh Government designed an extensive power generation plan to create sustainable growth of power sector and for overall development of the country economy. </p>
+            <p>Present installed generation capacity in public, private, Joint venture & import sector is 20,383 MW. Out of this, public sector possesses 9,717 MW (48%), Private Sector 8,884 MW (43%), Joint Venture 622 MW( 3%) & import 1,160MW (6%). Electricity demand is increasing whereas the available generation also increases against with demand. In the public sector, a number of generation units have become very old and has been operating at a reduced capacity. Moreover, most of the existing power plants are gas based. Due to shortage of gas supply, some power plants are unable to reach their usual generation capability. In this fiscal year maximum generation is 12,738 MW on August 05, 2019. At present, 97% of the total population has access to electricity and per capita generation is 512 kWh (including captive and renewable energy). Now Bangladesh has shown implausible achievement in power sector. The target of the government has been implemented successfully and has even been able to achieve the higher level of growth economic growth.
+</p><br>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Power Sector Development Plan</h3>
+
+<br>
+</p>
+          </div>
+         </div>
+         <br>
+
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Long Term Power Generation Plan </h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            
+             <p>A long-term electricity generation plan has been incorporated in the PSMP 2016. Under the plan, generation capacity requirement in 2030 will be 30,000 MW against the demand of 27,000 MW and in 2041 generation capacity will be 57,000 MW against the demand of 51,000 MW. Around 35 % power will be generated from coal and 35 % will be generated from Gas /LNG out of the total generaion capacity 57,000 MW in 2041.</p>
+          </div>
+         </div>
+        <br>
+
+
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+           <div class="age-graph">
+              <div id="ywgpc" class="interactive"></div>
+              <div id="ywgpr" class="interactive"></div>
+              <p>To strengthen transmission & distribution system, plans are being prepared to construct 22,238 ckt km
+transmission line 1,13,162 MVA capacity-based grid sub-station, 21 thousand km new distribution line and
+related distribution substation by 2025.</p>
+            </div>
+          <br>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Implementation Status of Power Generation Plan upto 2025</h3>
+            <p>Till now, generation from gas is much higher than compare to other fuel like hydro, coal. For this reason, government has taken strategic decision to diversify primary fuel supply for power generation. In line with this strategy, a sustainable long-term power development plan has been prepared for mitigation the growing demand to reach the generation capacity 24,000 MW by 2021. Under this plan, the coal (indigenous or imported), imported power from neighboring countries, the limited domestic gas, nuclear power and LNG, renewable will be used for power generation. Government has also taken energy efficiency and conservation program for reduction of the growing power demand.Revised generation expansion plan updated in January 2020 targeting about 21,977 MW generation
+additions from 2020 to 2025 is provided in a table below:</p>
+
+<br>
+</p>
+          </div>
+         </div>
+         <br>
+
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Implementation, Planning & Development of
+Renewable Energy Based Projects / Systems</h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text" data-aos="fade-left">
+            
+             <ol type="1">
+  <li>Renewable Energy Based Rooftop Solar Projects</li>
+  <li>Ongoing Utility Scale Solar PV Projects:</li>
+  <ol type="i">
+   <li> Construction of 100 MWp Solar Photovoltaic Grid Connected Power Plant at Sonagazi, Feni.</li>
+<li>Construction of 55 MWp Solar Photovoltaic Grid-Connected Power Plant at Gangachara, Rangpur.</li>
+<li>Construction of 20 MWp Grid-Connected Floating Solar Photovoltaic Power plant at Kaptai Lake, Rangamati.</li>
+  </ol>
+  <li>Projects under Construction:</li>
+  <ol type="i">
+    <li>0.813 kWp Grid Tied Rooftop Solar PV Projecton 23 nos. Government Building (8237.35 m2 rooftop area) at Jamalpur District.</li>
+    <li> Implementation of 45-55 MW (AC) Grid Tied Solar Power Project on BOO Basis at Rangunia, Chattogram.</li>
+    <li>"32 MW (AC) Solar Park at Dharmapasha, Sunamganj by Haor Bangla-Korea Green Energy Ltd.</li> 
+    <li>"50 MW (AC) Solar Park” at Sutiakhali, Gouripur, Mymensingh District, Bangladesh by HETAT-DITROLIC-IFDC Solar Consortium.</li> 
+    <li> “30MW (AC) Solar Park” at Gangachara, Rangpur by Intraco CNG Ltd & Juli New Energy Co. Ltd.</li>
+    <li> “200 MW (AC) Grid Tied Solar PV Power Project” at Sundarganj, Gaibandha by Beximco Power Company Ltd & TBEA
+    XinJiangSunOasisCo.Ltd.</li>
+    <li> “5 MW (AC) Solar Park” at Patgram, Lalmonirhat by Green Housing & Energy Ltd (PV Power Patgram Ltd).</li>
+    <li> “5MW (AC) Solar Park” at Sylhet by EikiShoji Co Ltd, Japan&Sun Solar Power Plant Ltd.</li>
+    <li> “35 MW (AC) Solar Park” at Manikganj by Consortium of Spectra Engineers Limited & Shunfeng Investment Limited.</li>
+    <li> “100 MW (AC) Solar Park” at Bora Durgapur, Mongla, Bagerhat by a Consortium of Energon Technologies FZE, UAE
+    and China Sunergy Co. Ltd. (CSUN).</li>
+    <li>“30 MW (AC) Solar park” at Tetulia, Panchagarh by Beximco Power Company Ltd & Jiangsu Zhongtian Technology
+    Co Ltd., China.</li>
+  </ol>
+  <li>Projects under Planning:</li>
+  <ol type="i">
+    <li>“50 MW (AC) Solar park” at Panchagarh by 8minutenergy Singapore Holdings 2, Pte.Ltd.</li>
+    <li>“100 MW (AC) Solar park” at Pabna by Shapoorji Pallonji Infrastructure Capital Company Private Limited (India).</li>
+    <li>“20 MW Solar project” at Deviganj, Panchagarh by Rahimafrooz Shunfeng Consortium.</li> 
+    <li>“10 MW Solar project” at Moulovibazar by Symbior Solar & Holland Consortium.</li> 
+    <li>“50 MW Solar project” at Dimla, Nilphamari by Scatec Solar ASA, Norway.</li>
+    <li>“100 MW Solar project” at Madarganj, Jamalpur by JV of CREC International Renewable Energy Co. Ltd. (CIRE & BR)
+    Powergen Ltd.</li>
+    <li>“3.77 MW Solar Power Plant” at Bera, pabna by Joint Venture of Mostafa Motors Ltd. Bangladesh and Solarland
+(Wuxi) Electric Science and Technology Co. Ltd. China.</li>
+    <li> “50 MW Solar Power Plant” at Dhamrai, Dhaka by Consortium of IBV Vogt GmbH & SS Agro Complex Ltd.</li>
+    <li> 50 MW Grid Tied Solar Power Plant near Bariahaat 132/33 kV grid substation.</li>
+    <li> 50 MW Grid Tied Solar Power Plant near Chuadanga 132/33 kV grid substation.</li>
+    <li>50 MW Grid Tied Solar Power Plant near Netrokona 132/33 kV grid Substation.</li>
+  </ol>
+</ol>
+
+<br>
+          </div>
+         </div>
+        <br>
+
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Ongoing Wind Power Projects </h3>
+            <p>BPDB's Own Project: </p>
+            <ol>
+  <li>2MW (8x250 kW) Capacity Wind Power Plant on Turnkey Basis at the bank of the river Jamuna adjacent to the
+existing Sirajganj 220 MW Power Plant Sirajganj, Bangladesh.</li>
+</ol>
+          </div>
+          <div class="col-md-6 text" data-aos="fade-left">
+            <p>Independent Power Producer (IPP) Projects:</p><br>
+<ol>
+  <li>“30 MW Grid Tied Wind Power Project” at Sonagazi, Feni by Consortium of Bhagwati Products Ltd (India),
+Regen Powertech Private Ltd (India) and Siddhant Wind Energy Pvt. Ltd.</li>
+  <li>“60 MW Wind Power Plant” at Cox’s Bazar by US DK Green Energy (BD) Ltd.</li>
+  <li>50 MW Wind Power Project near to Kachua 132/33 kV Grid Substation, Chandpur.</li>
+  <li>50 MW Wind Power Project near to Mongla 132/33 kV Grid Substation, Mongla, Bagerhat.</li>
+  <li>50 MW Wind Power Project near to Inani, Cox’s Bazar.</li>
+</ol>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+           <img src="img/solar_power_plant_19_20.JPG" alt="" height="300vh" width="100%"><br>
+    <p style="font-size: 10px;">Narayanganj 5 MW Municipal Solid Waste based Power Plant at Narayanganj.</p>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Ongoing Solid Waste to Energy based Power Projects </h3>
+            <p>Projects under planning: </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+         <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Tables and Charts </h3>
+            <p>Installed Capacity, Present Capacity (Derated), Maximum Forcasted Demand Maximum Demand served and Energy not Served </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <div class="age-graph">
+              <div id="icpmf" class="interactive"></div>
+              <u><b>Note</b></u> <br>
+          <ol type="1" style="font-size: 10px">
+  <li>Installed capacity is as of 30th June of the year.</li>
+  <li>Present Capacity (Derated) is the Maximum available generation capacity at present.</li>
+  <li>Maximum Demand is shown as per power system master plan.</li>
+</ol>
+<br>
+            </div>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <div class="age-graph">
+              <div id="ywmg" class="interactive"></div>
+            </div>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Year Wise Maximum Generation</h3>
+            <p> </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+                  <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Gross Energy Generation of Public Sector </h3>
+            <p></p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <div class="age-graph">
+              <div id="gegps" class="interactive"></div>
+            </div>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <div class="age-graph">
+              <div id="tneg" class="interactive"></div>
+            </div>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Total Net Energy Generation </h3>
+            <p> </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+
+
+                  <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Year Wise Per Capita Generation and Consumption(Grid) </h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <div class="age-graph">
+              <div id="ywpcgc" class="interactive"></div>
+              <p style="font-size: 10px">* World Bank Data from 1971-2000.
+                <br>
+              * BBS & Bangladesh Bank Data Book.</p>
+              <p style="font-size: 10px"></p>
+            </div>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <div class="age-graph">
+              <div id="ywfcpspp" class="interactive"></div>
+            </div>
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Year Wise Fuel Consumption of Public Sector Power Plants </h3>
+            <p> </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+
+                  <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Year Wise Fuel Cost of Public Sector Power Plants </h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <div class="age-graph">
+              <div id="ywfcpsppm" class="interactive"></div>
+            </div>
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="img/distribution_zone_energy_i_s_s.JPG"  height="300vh" width="100%">
+              <img src="img/distribution_zone_billing_stat.JPG"  height="300vh" width="100%">
+            
+
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>DISTRIBUTION TABLES AND CHARTS</h3>
+             
+              <img src="img/consumption_pattern_zone.JPG"  height="300vh" width="100%">
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+
+                  <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Distribution System Loss (Without 132 KV consumer) & Net Revenue </h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+             <img src="img/distribution_system_loss.JPG"  height="300vh" width="100%">
+          </div>
+         </div>
+        <br>
+        <div class="row align-items-center age-risk">
+          <div class="col-md-6 text-center" data-aos="fade-right">
+            <img src="img/cost_electricity_gen_pur_c1.JPG"  height="300vh" width="100%">
+          </div>
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>ACCOUNTS, FINANCE AND AUDIT </h3>
+            <p>It shows that Energy purchase from India & purchase from IPP has increased by 8.49% and
+11.24%. BPDB's own generation cost, purchase from Rental, & Public Plants decreased to 2.40%,
+35.85% & 2.45% respectively compared to FY 2018-2019. Chart-1 shows the comparative
+generation picture. </p>
+            <br>
+            </p>
+          </div>
+         </div>
+         <br>
+
+                  <br>
+         <div class="row align-items-center cancer-frequency">
+          <div class="col-md-6 align-items-center" data-aos="fade-up">
+            <h3>Primary Grid System of Bangladesh </h3>
+            <p> </p>
+          </div>
+          <div class="col-md-6 text-center" data-aos="fade-left">
+            <img src="img/bay_pp.JPG"  height="700vh" width="100%">
+          </div>
+         </div>
+        <br>
+        
+         
+      </div>
+     </div>
+     <br>
+     <br><br>
+     <!-- stat content ends here  -->
+
+     <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">This research also serves the purpose of spreading awareness related to Flexible Use of Electricity. <br>
+           
+            </p>
+          </div>
+          <div class="col-xs-6 col-md-3">
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="./index.html">Home <i class="fas fa-home"></i></a></li>
+              <li><a href="./insight.html">insight <i class="fas fa-chart-bar"></i></a></li>
+              <li><a href="./solution.html">Solution <i class="fas fa-dna"></i></a></li>
+              <li><a href="./contact.html">Contact <i class="fas fa-phone-square"></i></a></li>
+              <li><a href="./faq.html">FAQs <i class="fas fa-comment-dots"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 Rights Reserved by 
+         <a href="./index.html">Power Rangers</a>.
+            </p>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <!--<li><a target="_blank" class="facebook" href="https://www.facebook.com/#"><i class="fab fa-facebook"></i></a></li>
+              <li><a target="_blank" class="dribbble" href="https://www.instagram.com/#/"><i class="fab fa-instagram"></i></a></li>-->
+              <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/company/power-rangers2027/"><i class="fab fa-linkedin"></i></a></li>     
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <!-- footer ends here -->
+  
+  <!-- js tags  -->
+  <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+  </script>
+  <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://cdn.plot.ly/plotly-2.12.1.min.js"></script>
+
+<script type="text/javascript" src="energygeneration/sketch.js"></script>
+<script type="text/javascript" src="maintenancepowerplants/sketch.js"></script>
+
+<script type="text/javascript" src="transmissionL/sketch.js"></script>
+<script type="text/javascript" src="ngf/sketch.js"></script>
+<script type="text/javascript" src="ywgpc/sketch.js"></script>
+<script type="text/javascript" src="ywgpr/sketch.js"></script>
+<script type="text/javascript" src="icpmf/sketch.js"></script>
+<script type="text/javascript" src="ywmg/sketch.js"></script>
+<script type="text/javascript" src="gegps/sketch.js"></script>
+<script type="text/javascript" src="tneg/sketch.js"></script>
+<script type="text/javascript" src="ywpcgc/sketch.js"></script>
+<script type="text/javascript" src="ywfcpspp/sketch.js"></script>
+<script type="text/javascript" src="ywfcpsppm/sketch.js"></script>
+  <!-- aos data  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 700,
+    });
+  </script>
+</body>
+</html>
